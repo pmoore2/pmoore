@@ -1,6 +1,6 @@
 # Person Portfolio Website
 
-My [personal website](pmoore2.github.io) that showcases some of the projects I've been working on
+My [personal website](https://pmoore2.github.io/pmoore/) that showcases some of the projects I've been working on
 
 # What I Learned
 
