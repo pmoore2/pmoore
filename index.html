@@ -8,6 +8,7 @@
 	<head>
 		<title>Parker Moore</title>
 		<link rel="icon" href="images/icons8-code-30.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,29 +19,21 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header">
-						<div class="inner">
+				<header class="header sticky sticky--top js-header">
 
-							<!-- Logo -->
-								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
-								</a>
-
-							<!-- Nav -->
-								<nav id="nav">
-									<ul class="icons">
-										<li> <a href="https://github.com/pmoore2" class="icon brands style3 fa-github"><span class=label>GitHub</span></a></li>
-									</ul>
-									<ul class="icons">
-										<li> <a href="https://www.linkedin.com/in/pmoore23/" class="icon brands style3 fa-linkedin"><span class=label>Linkedin</span></a></li>
-									</ul>
-									<ul class="icons">
-										<li> <a href="mailto:pmoore2@nd.edu" class="icon brands style3 fa-envelope"><span class=label>Mail</span></a></li>
-									</ul>
-								</nav>
-
-						</div>
-					</header>
+					<div class="grid">
+				  
+					  <nav class="navigation">
+						<ul class="navigation__list navigation__list--inline">
+						  <li class="navigation__item"><a href="https://pmoore2.github.io/" class="navigation__link navigation__link--is-active">Home</a></li>
+						  <li class="navigation__item"><a href="#projects" class="navigation__link">Projects</a></li>
+						  <li class="navigation__item"><a href="#contact" class="navigation__link">Contact</a></li>
+						</ul>
+					  </nav>
+				  
+					</div>
+				  
+				  </header>
 
 				<!-- Menu -->
 					<nav id="menu">
@@ -58,9 +51,10 @@
 					<div id="main">
 						<div class="inner">
 							<header>
-								<h1>Hi, I'm Parker Moore</h1>
+								<h1 style="padding-top:50px;">Hi, I'm Parker Moore</h1>
 								<p>I a Junior studying Computer Science at the <a href="https://www.nd.edu/">University of Notre Dame</a> and am originally from Long Island, New York. I am very passionate in software development and blockchain. I created this website using <a href="https://www.javascript.com/">JavaScript</a>, HTML, and CSS to showcase some of my projects.</p>
 							</header>
+							<h2 style="text-decoration: underline;" id="projects">Projects I've Built</h2>
 							<section class="tiles">
 								<article class="style1">
 									<span class="image">
@@ -92,11 +86,18 @@
 					<footer id="footer">
 						<div class="inner">
 							<section>
+								<h2 style="text-decoration: underline;" id="contact">Contact Information</h2>
 								<ul class="icons">
 									<li><a href="https://github.com/pmoore2" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
 									<li><a href="https://www.linkedin.com/in/pmoore23/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
 									<li><a href="mailto:pmoore2@nd.edu" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+									<li><a href="./test.pdf" download><span class="icon solid style 2"><i class="fa fa-download"></i> Download Resume</span></a></li>
 								</ul>
+							<!--</section>
+								<ul class="icons">
+									<li><a href="google.com"><span class="button" ><i class="fa fa-download"></i> Download Resume</span></a></li>
+								</ul>
+							<section>-->
 							</section>
 							<ul class="copyright">
 								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
