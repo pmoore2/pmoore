@@ -2832,7 +2832,7 @@ input, select, textarea {
 .grid {
     inline-size: 90%;
     margin-inline: auto;
-    max-inline-size: 48em;
+    max-inline-size: 65em;
   }
 
 .header {
